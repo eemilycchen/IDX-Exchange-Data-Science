@@ -1,0 +1,35 @@
+{
+  "config": "U0",
+  "config_name": "Team: base + school district + HOA + flooring",
+  "trained_through": "2026-03",
+  "validation_month": "2026-03",
+  "demo_month": "2026-04",
+  "estimate_date": "2026-04-15",
+  "first_month": "2024-01",
+  "n_train": 293948,
+  "n_trees": 3000,
+  "validation_metrics": {
+    "MdAPE_%": 7.08,
+    "MAPE_%": 10.26,
+    "R2": 0.913,
+    "MAE_$": 138084.0,
+    "within_10%": 63.4
+  },
+  "xgb_params": {
+    "n_estimators": 3000,
+    "learning_rate": 0.05,
+    "max_depth": 7,
+    "min_child_weight": 5,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "reg_lambda": 1.0,
+    "tree_method": "hist",
+    "early_stopping_rounds": 100,
+    "random_state": 42
+  },
+  "price_limits": [
+    190000.0,
+    8287036.875000022
+  ],
+  "built": "2026-11-21 08:25"
+}
